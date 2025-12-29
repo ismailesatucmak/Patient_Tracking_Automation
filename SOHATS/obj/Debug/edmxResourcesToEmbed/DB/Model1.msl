@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SOHATSModelStoreContainer" CdmEntityContainer="SOHATSEntities">
+    <EntitySetMapping Name="cikis">
+      <EntityTypeMapping TypeName="SOHATSModel.cikis">
+        <MappingFragment StoreEntitySet="cikis">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="dosyano" ColumnName="dosyano" />
+          <ScalarProperty Name="sevktarihi" ColumnName="sevktarihi" />
+          <ScalarProperty Name="cikissaati" ColumnName="cikissaati" />
+          <ScalarProperty Name="odeme" ColumnName="odeme" />
+          <ScalarProperty Name="toplamtutar" ColumnName="toplamtutar" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="hasta">
+      <EntityTypeMapping TypeName="SOHATSModel.hasta">
+        <MappingFragment StoreEntitySet="hasta">
+          <ScalarProperty Name="tckimlikno" ColumnName="tckimlikno" />
+          <ScalarProperty Name="dosyano" ColumnName="dosyano" />
+          <ScalarProperty Name="ad" ColumnName="ad" />
+          <ScalarProperty Name="soyad" ColumnName="soyad" />
+          <ScalarProperty Name="dogumyeri" ColumnName="dogumyeri" />
+          <ScalarProperty Name="dogumtarihi" ColumnName="dogumtarihi" />
+          <ScalarProperty Name="babaadi" ColumnName="babaadi" />
+          <ScalarProperty Name="anneadi" ColumnName="anneadi" />
+          <ScalarProperty Name="cinsiyet" ColumnName="cinsiyet" />
+          <ScalarProperty Name="kangrubu" ColumnName="kangrubu" />
+          <ScalarProperty Name="medenihal" ColumnName="medenihal" />
+          <ScalarProperty Name="adres" ColumnName="adres" />
+          <ScalarProperty Name="tel" ColumnName="tel" />
+          <ScalarProperty Name="kurumsicilno" ColumnName="kurumsicilno" />
+          <ScalarProperty Name="kurumadi" ColumnName="kurumadi" />
+          <ScalarProperty Name="yakintel" ColumnName="yakintel" />
+          <ScalarProperty Name="yakinkurumsicilno" ColumnName="yakinkurumsicilno" />
+          <ScalarProperty Name="yakinkurumadi" ColumnName="yakinkurumadi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="islem">
+      <EntityTypeMapping TypeName="SOHATSModel.islem">
+        <MappingFragment StoreEntitySet="islem">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="islemAdi" ColumnName="islemAdi" />
+          <ScalarProperty Name="birimFiyat" ColumnName="birimFiyat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="kullanici">
+      <EntityTypeMapping TypeName="SOHATSModel.kullanici">
+        <MappingFragment StoreEntitySet="kullanici">
+          <ScalarProperty Name="kodu" ColumnName="kodu" />
+          <ScalarProperty Name="ad" ColumnName="ad" />
+          <ScalarProperty Name="soyad" ColumnName="soyad" />
+          <ScalarProperty Name="sifre" ColumnName="sifre" />
+          <ScalarProperty Name="yetki" ColumnName="yetki" />
+          <ScalarProperty Name="evtel" ColumnName="evtel" />
+          <ScalarProperty Name="ceptel" ColumnName="ceptel" />
+          <ScalarProperty Name="adres" ColumnName="adres" />
+          <ScalarProperty Name="unvan" ColumnName="unvan" />
+          <ScalarProperty Name="isebaslama" ColumnName="isebaslama" />
+          <ScalarProperty Name="maas" ColumnName="maas" />
+          <ScalarProperty Name="dogumyeri" ColumnName="dogumyeri" />
+          <ScalarProperty Name="annead" ColumnName="annead" />
+          <ScalarProperty Name="babaad" ColumnName="babaad" />
+          <ScalarProperty Name="cinsiyet" ColumnName="cinsiyet" />
+          <ScalarProperty Name="kangrubu" ColumnName="kangrubu" />
+          <ScalarProperty Name="medenihal" ColumnName="medenihal" />
+          <ScalarProperty Name="dogumtarihi" ColumnName="dogumtarihi" />
+          <ScalarProperty Name="tckimlikno" ColumnName="tckimlikno" />
+          <ScalarProperty Name="username" ColumnName="username" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="poliklinik">
+      <EntityTypeMapping TypeName="SOHATSModel.poliklinik">
+        <MappingFragment StoreEntitySet="poliklinik">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="poliklinikadi" ColumnName="poliklinikadi" />
+          <ScalarProperty Name="durum" ColumnName="durum" />
+          <ScalarProperty Name="aciklama" ColumnName="aciklama" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sevk">
+      <EntityTypeMapping TypeName="SOHATSModel.sevk">
+        <MappingFragment StoreEntitySet="sevk">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="sevktarihi" ColumnName="sevktarihi" />
+          <ScalarProperty Name="dosyano" ColumnName="dosyano" />
+          <ScalarProperty Name="poliklinik" ColumnName="poliklinik" />
+          <ScalarProperty Name="saat" ColumnName="saat" />
+          <ScalarProperty Name="yapilanislem" ColumnName="yapilanislem" />
+          <ScalarProperty Name="drkod" ColumnName="drkod" />
+          <ScalarProperty Name="miktar" ColumnName="miktar" />
+          <ScalarProperty Name="birimfiyat" ColumnName="birimfiyat" />
+          <ScalarProperty Name="sira" ColumnName="sira" />
+          <ScalarProperty Name="toplamtutar" ColumnName="toplamtutar" />
+          <ScalarProperty Name="taburcu" ColumnName="taburcu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

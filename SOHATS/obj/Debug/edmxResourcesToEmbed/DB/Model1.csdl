@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SOHATSModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="cikis">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="dosyano" Type="Int32" Nullable="false" />
+    <Property Name="sevktarihi" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="cikissaati" Type="DateTime" Precision="3" />
+    <Property Name="odeme" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="toplamtutar" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="hasta">
+    <Key>
+      <PropertyRef Name="tckimlikno" />
+    </Key>
+    <Property Name="tckimlikno" Type="String" MaxLength="11" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="dosyano" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ad" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="soyad" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="dogumyeri" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="dogumtarihi" Type="DateTime" Precision="3" />
+    <Property Name="babaadi" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="anneadi" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="cinsiyet" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+    <Property Name="kangrubu" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+    <Property Name="medenihal" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+    <Property Name="adres" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="tel" Type="String" MaxLength="11" FixedLength="false" Unicode="true" />
+    <Property Name="kurumsicilno" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="kurumadi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="yakintel" Type="String" MaxLength="11" FixedLength="false" Unicode="true" />
+    <Property Name="yakinkurumsicilno" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="yakinkurumadi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="islem">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="islemAdi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="birimFiyat" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="kullanici">
+    <Key>
+      <PropertyRef Name="kodu" />
+    </Key>
+    <Property Name="kodu" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ad" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="soyad" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="sifre" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="yetki" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+    <Property Name="evtel" Type="String" MaxLength="11" FixedLength="false" Unicode="true" />
+    <Property Name="ceptel" Type="String" MaxLength="11" FixedLength="false" Unicode="true" />
+    <Property Name="adres" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="unvan" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="isebaslama" Type="DateTime" Precision="3" />
+    <Property Name="maas" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="dogumyeri" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="annead" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="babaad" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="cinsiyet" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+    <Property Name="kangrubu" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="medenihal" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="dogumtarihi" Type="DateTime" Precision="3" />
+    <Property Name="tckimlikno" Type="String" MaxLength="11" FixedLength="false" Unicode="true" />
+    <Property Name="username" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="poliklinik">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="poliklinikadi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="durum" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+    <Property Name="aciklama" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="sevk">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="sevktarihi" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="dosyano" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="poliklinik" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="saat" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="yapilanislem" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="drkod" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="miktar" Type="String" MaxLength="3" FixedLength="true" Unicode="false" />
+    <Property Name="birimfiyat" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="sira" Type="String" MaxLength="3" FixedLength="false" Unicode="true" />
+    <Property Name="toplamtutar" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="taburcu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="SOHATSEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="cikis" EntityType="Self.cikis" />
+    <EntitySet Name="hasta" EntityType="Self.hasta" />
+    <EntitySet Name="islem" EntityType="Self.islem" />
+    <EntitySet Name="kullanici" EntityType="Self.kullanici" />
+    <EntitySet Name="poliklinik" EntityType="Self.poliklinik" />
+    <EntitySet Name="sevk" EntityType="Self.sevk" />
+  </EntityContainer>
+</Schema>

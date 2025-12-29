@@ -1,0 +1,51 @@
+C:\Users\ismai\Downloads\HastaTakip_v3 (2)\SOHATS_Portable\SOHATS\bin\Debug\SOHATS.exe.config
+C:\Users\ismai\Downloads\HastaTakip_v3 (2)\SOHATS_Portable\SOHATS\bin\Debug\SOHATS.exe
+C:\Users\ismai\Downloads\HastaTakip_v3 (2)\SOHATS_Portable\SOHATS\bin\Debug\SOHATS.pdb
+C:\Users\ismai\Downloads\HastaTakip_v3 (2)\SOHATS_Portable\SOHATS\bin\Debug\EntityFramework.dll
+C:\Users\ismai\Downloads\HastaTakip_v3 (2)\SOHATS_Portable\SOHATS\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ismai\Downloads\HastaTakip_v3 (2)\SOHATS_Portable\SOHATS\bin\Debug\EntityFramework.xml
+C:\Users\ismai\Downloads\HastaTakip_v3 (2)\SOHATS_Portable\SOHATS\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ismai\Downloads\HastaTakip_v3 (2)\SOHATS_Portable\SOHATS\obj\Debug\SOHATS.csproj.AssemblyReference.cache
+C:\Users\ismai\Downloads\HastaTakip_v3 (2)\SOHATS_Portable\SOHATS\obj\Debug\SOHATS.AnaForm.resources
+C:\Users\ismai\Downloads\HastaTakip_v3 (2)\SOHATS_Portable\SOHATS\obj\Debug\SOHATS.DosyaBul.resources
+C:\Users\ismai\Downloads\HastaTakip_v3 (2)\SOHATS_Portable\SOHATS\obj\Debug\SOHATS.HastaBilgileri.resources
+C:\Users\ismai\Downloads\HastaTakip_v3 (2)\SOHATS_Portable\SOHATS\obj\Debug\SOHATS.HastaProcess.resources
+C:\Users\ismai\Downloads\HastaTakip_v3 (2)\SOHATS_Portable\SOHATS\obj\Debug\SOHATS.KullaniciPage.resources
+C:\Users\ismai\Downloads\HastaTakip_v3 (2)\SOHATS_Portable\SOHATS\obj\Debug\SOHATS.KulTanit.resources
+C:\Users\ismai\Downloads\HastaTakip_v3 (2)\SOHATS_Portable\SOHATS\obj\Debug\SOHATS.Login.resources
+C:\Users\ismai\Downloads\HastaTakip_v3 (2)\SOHATS_Portable\SOHATS\obj\Debug\SOHATS.PoliklinikPage.resources
+C:\Users\ismai\Downloads\HastaTakip_v3 (2)\SOHATS_Portable\SOHATS\obj\Debug\SOHATS.PoliTanit.resources
+C:\Users\ismai\Downloads\HastaTakip_v3 (2)\SOHATS_Portable\SOHATS\obj\Debug\SOHATS.Properties.Resources.resources
+C:\Users\ismai\Downloads\HastaTakip_v3 (2)\SOHATS_Portable\SOHATS\obj\Debug\SOHATS.Rapor.resources
+C:\Users\ismai\Downloads\HastaTakip_v3 (2)\SOHATS_Portable\SOHATS\obj\Debug\SOHATS.Taburcu.resources
+C:\Users\ismai\Downloads\HastaTakip_v3 (2)\SOHATS_Portable\SOHATS\obj\Debug\SOHATS.csproj.GenerateResource.cache
+C:\Users\ismai\Downloads\HastaTakip_v3 (2)\SOHATS_Portable\SOHATS\obj\Debug\SOHATS.csproj.CoreCompileInputs.cache
+C:\Users\ismai\Downloads\HastaTakip_v3 (2)\SOHATS_Portable\SOHATS\obj\Debug\SOHATS.csproj.Up2Date
+C:\Users\ismai\Downloads\HastaTakip_v3 (2)\SOHATS_Portable\SOHATS\obj\Debug\SOHATS.exe
+C:\Users\ismai\Downloads\HastaTakip_v3 (2)\SOHATS_Portable\SOHATS\obj\Debug\SOHATS.pdb
+C:\Users\ismai\Desktop\233311071_Ismail_Esat_Ucmak\SOHATS\bin\Debug\SOHATS.exe.config
+C:\Users\ismai\Desktop\233311071_Ismail_Esat_Ucmak\SOHATS\bin\Debug\SOHATS.exe
+C:\Users\ismai\Desktop\233311071_Ismail_Esat_Ucmak\SOHATS\bin\Debug\SOHATS.pdb
+C:\Users\ismai\Desktop\233311071_Ismail_Esat_Ucmak\SOHATS\bin\Debug\EntityFramework.dll
+C:\Users\ismai\Desktop\233311071_Ismail_Esat_Ucmak\SOHATS\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ismai\Desktop\233311071_Ismail_Esat_Ucmak\SOHATS\bin\Debug\EntityFramework.xml
+C:\Users\ismai\Desktop\233311071_Ismail_Esat_Ucmak\SOHATS\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ismai\Desktop\233311071_Ismail_Esat_Ucmak\SOHATS\obj\Debug\SOHATS.csproj.AssemblyReference.cache
+C:\Users\ismai\Desktop\233311071_Ismail_Esat_Ucmak\SOHATS\obj\Debug\SOHATS.exe.config
+C:\Users\ismai\Desktop\233311071_Ismail_Esat_Ucmak\SOHATS\obj\Debug\SOHATS.AnaForm.resources
+C:\Users\ismai\Desktop\233311071_Ismail_Esat_Ucmak\SOHATS\obj\Debug\SOHATS.DosyaBul.resources
+C:\Users\ismai\Desktop\233311071_Ismail_Esat_Ucmak\SOHATS\obj\Debug\SOHATS.HastaBilgileri.resources
+C:\Users\ismai\Desktop\233311071_Ismail_Esat_Ucmak\SOHATS\obj\Debug\SOHATS.HastaIslemleri.resources
+C:\Users\ismai\Desktop\233311071_Ismail_Esat_Ucmak\SOHATS\obj\Debug\SOHATS.Login.resources
+C:\Users\ismai\Desktop\233311071_Ismail_Esat_Ucmak\SOHATS\obj\Debug\SOHATS.Properties.Resources.resources
+C:\Users\ismai\Desktop\233311071_Ismail_Esat_Ucmak\SOHATS\obj\Debug\SOHATS.Rapor.resources
+C:\Users\ismai\Desktop\233311071_Ismail_Esat_Ucmak\SOHATS\obj\Debug\SOHATS.Taburcu.resources
+C:\Users\ismai\Desktop\233311071_Ismail_Esat_Ucmak\SOHATS\obj\Debug\SOHATS.csproj.GenerateResource.cache
+C:\Users\ismai\Desktop\233311071_Ismail_Esat_Ucmak\SOHATS\obj\Debug\SOHATS.csproj.CoreCompileInputs.cache
+C:\Users\ismai\Desktop\233311071_Ismail_Esat_Ucmak\SOHATS\obj\Debug\SOHATS.csproj.Up2Date
+C:\Users\ismai\Desktop\233311071_Ismail_Esat_Ucmak\SOHATS\obj\Debug\SOHATS.exe
+C:\Users\ismai\Desktop\233311071_Ismail_Esat_Ucmak\SOHATS\obj\Debug\SOHATS.pdb
+C:\Users\ismai\Desktop\233311071_Ismail_Esat_Ucmak\SOHATS\obj\Debug\SOHATS.KullaniciSayfasi.resources
+C:\Users\ismai\Desktop\233311071_Ismail_Esat_Ucmak\SOHATS\obj\Debug\SOHATS.KullaniciEkle.resources
+C:\Users\ismai\Desktop\233311071_Ismail_Esat_Ucmak\SOHATS\obj\Debug\SOHATS.PoliklinikSayfasi.resources
+C:\Users\ismai\Desktop\233311071_Ismail_Esat_Ucmak\SOHATS\obj\Debug\SOHATS.PoliklinikEkle.resources

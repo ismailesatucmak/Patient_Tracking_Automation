@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SOHATSModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="cikis">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="dosyano" Type="int" Nullable="false" />
+    <Property Name="sevktarihi" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="cikissaati" Type="datetime" />
+    <Property Name="odeme" Type="nvarchar" MaxLength="20" />
+    <Property Name="toplamtutar" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="hasta">
+    <Key>
+      <PropertyRef Name="tckimlikno" />
+    </Key>
+    <Property Name="tckimlikno" Type="nvarchar" MaxLength="11" Nullable="false" />
+    <Property Name="dosyano" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ad" Type="nvarchar" MaxLength="15" />
+    <Property Name="soyad" Type="nvarchar" MaxLength="15" />
+    <Property Name="dogumyeri" Type="nvarchar" MaxLength="15" />
+    <Property Name="dogumtarihi" Type="datetime" />
+    <Property Name="babaadi" Type="nvarchar" MaxLength="15" />
+    <Property Name="anneadi" Type="nvarchar" MaxLength="15" />
+    <Property Name="cinsiyet" Type="nvarchar" MaxLength="5" />
+    <Property Name="kangrubu" Type="nvarchar" MaxLength="5" />
+    <Property Name="medenihal" Type="nvarchar" MaxLength="5" />
+    <Property Name="adres" Type="nvarchar" MaxLength="255" />
+    <Property Name="tel" Type="nvarchar" MaxLength="11" />
+    <Property Name="kurumsicilno" Type="nvarchar" MaxLength="10" />
+    <Property Name="kurumadi" Type="nvarchar" MaxLength="50" />
+    <Property Name="yakintel" Type="nvarchar" MaxLength="11" />
+    <Property Name="yakinkurumsicilno" Type="nvarchar" MaxLength="10" />
+    <Property Name="yakinkurumadi" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="islem">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="islemAdi" Type="nvarchar" MaxLength="50" />
+    <Property Name="birimFiyat" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="kullanici">
+    <Key>
+      <PropertyRef Name="kodu" />
+    </Key>
+    <Property Name="kodu" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ad" Type="nvarchar" MaxLength="20" />
+    <Property Name="soyad" Type="nvarchar" MaxLength="20" />
+    <Property Name="sifre" Type="nvarchar" MaxLength="20" />
+    <Property Name="yetki" Type="nvarchar" MaxLength="5" />
+    <Property Name="evtel" Type="nvarchar" MaxLength="11" />
+    <Property Name="ceptel" Type="nvarchar" MaxLength="11" />
+    <Property Name="adres" Type="nvarchar" MaxLength="255" />
+    <Property Name="unvan" Type="nvarchar" MaxLength="15" />
+    <Property Name="isebaslama" Type="datetime" />
+    <Property Name="maas" Type="nvarchar" MaxLength="20" />
+    <Property Name="dogumyeri" Type="nvarchar" MaxLength="50" />
+    <Property Name="annead" Type="nvarchar" MaxLength="20" />
+    <Property Name="babaad" Type="nvarchar" MaxLength="20" />
+    <Property Name="cinsiyet" Type="nvarchar" MaxLength="5" />
+    <Property Name="kangrubu" Type="nvarchar" MaxLength="10" />
+    <Property Name="medenihal" Type="nvarchar" MaxLength="10" />
+    <Property Name="dogumtarihi" Type="datetime" />
+    <Property Name="tckimlikno" Type="nvarchar" MaxLength="11" />
+    <Property Name="username" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="poliklinik">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="poliklinikadi" Type="nvarchar" MaxLength="50" />
+    <Property Name="durum" Type="nvarchar" MaxLength="5" />
+    <Property Name="aciklama" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="sevk">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="sevktarihi" Type="datetime" Nullable="false" />
+    <Property Name="dosyano" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="poliklinik" Type="nvarchar" MaxLength="50" />
+    <Property Name="saat" Type="nvarchar" MaxLength="10" />
+    <Property Name="yapilanislem" Type="nvarchar" MaxLength="50" />
+    <Property Name="drkod" Type="char" MaxLength="10" />
+    <Property Name="miktar" Type="char" MaxLength="3" />
+    <Property Name="birimfiyat" Type="nvarchar" MaxLength="20" />
+    <Property Name="sira" Type="nvarchar" MaxLength="3" />
+    <Property Name="toplamtutar" Type="nvarchar" MaxLength="50" />
+    <Property Name="taburcu" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="SOHATSModelStoreContainer">
+    <EntitySet Name="cikis" EntityType="Self.cikis" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="hasta" EntityType="Self.hasta" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="islem" EntityType="Self.islem" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="kullanici" EntityType="Self.kullanici" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="poliklinik" EntityType="Self.poliklinik" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sevk" EntityType="Self.sevk" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
